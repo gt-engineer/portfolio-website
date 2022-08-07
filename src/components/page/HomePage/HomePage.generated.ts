@@ -1,4 +1,4 @@
-import * as Types from '@/src/graphql/generated/type';
+import * as Types from '@/graphql/generated/type';
 
 import gql from 'graphql-tag';
 import { HomePageScheduleQueryFragmentDoc } from './components/Schedule/Schedule.generated';

@@ -31,7 +31,7 @@ module.exports = {
     'src/': {
       preset: 'near-operation-file',
       presetConfig: {
-        baseTypesPath: '~@/src/graphql/generated/type',
+        baseTypesPath: '~@/graphql/generated/type',
       },
       plugins: ['typescript-operations', 'typescript-urql', 'typescript-msw'],
       config: {
