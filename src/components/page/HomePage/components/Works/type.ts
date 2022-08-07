@@ -1,5 +1,6 @@
 export type TwitterWorksItemType = {
   title: string
+  videoUrl: string
   vocalAccount: string
   speialThanks?: { link: string; text: string }
 }

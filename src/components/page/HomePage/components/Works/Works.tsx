@@ -9,6 +9,8 @@ import { TwitterWorksItemType, YouTubeWorksItemType } from './type'
 const TwitterData: ReadonlyArray<TwitterWorksItemType> = [
   {
     title: '神っぽいな / ピノキオピー',
+    videoUrl:
+      'https://video.twimg.com/ext_tw_video/1553422517917732864/pu/vid/640x360/kfN4YA4PmxMVu9bD.mp4',
     vocalAccount: 'Evvvnn',
     speialThanks: {
       text: 'MIX練習用音源集',
@@ -38,6 +40,6 @@ const YouTubeData: ReadonlyArray<YouTubeWorksItemType> = [
   },
 ]
 
-export const Works: FC<HTMLChakraProps<'section'>> = ({ ...chakraProps }) => {
+export const Works: FC<HTMLChakraProps<'div'>> = ({ ...chakraProps }) => {
   return <WorksPresenter twitterWorks={TwitterData} youtubeWorks={YouTubeData} {...chakraProps} />
 }
