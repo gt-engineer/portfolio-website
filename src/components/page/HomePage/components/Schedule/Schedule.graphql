@@ -1,0 +1,21 @@
+fragment HomePageScheduleQuery on Query {
+  node(id: "PVT_kwHOBpSjlM4AEm0d") {
+    ... on ProjectV2 {
+      items(first: 20) {
+        nodes {
+          id
+          fieldValues(first: 8) {
+            nodes {
+              ... on ProjectV2ItemFieldTextValue {
+                text
+              }
+              ... on ProjectV2ItemFieldSingleSelectValue {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
