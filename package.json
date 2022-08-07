@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "start": "next start",
     "lint": "next lint",
     "codegen": "graphql-codegen --config codegen.js"
@@ -41,6 +42,7 @@
     "eslint-config-next": "12.2.4",
     "eslint-config-prettier": "^8.5.0",
     "msw": "^0.44.2",
+    "next-on-netlify": "^3.0.1",
     "prettier": "^2.7.1",
     "typescript": "4.7.4"
   }
