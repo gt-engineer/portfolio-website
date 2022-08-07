@@ -45,6 +45,7 @@
     "find-cache-dir": "^3.3.2",
     "msw": "^0.44.2",
     "netlify-plugin-cache-nextjs": "^1.6.1",
+    "next-on-netlify": "^3.0.1",
     "prettier": "^2.7.1",
     "typescript": "4.7.4"
   }
