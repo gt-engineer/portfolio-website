@@ -28,7 +28,7 @@ export const WorksPresenter: FC<
       <chakra.p maxW="500px" mx="auto" textAlign="left" lineHeight="1.6">
         稼働実績はありますがこちらの名義では公開しておりませんので実績を確認したい場合はご連絡をお願いします。
         <br />
-        こちらのサイトは React / Next.js / Chakra-ui / urql / GraphQL(Github API) / さくらのVPS
+        こちらのサイトは React / Next.js / Chakra-ui / urql / GraphQL(Github API) / netlify
         で作成されています。
       </chakra.p>
     </chakra.section>
