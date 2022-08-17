@@ -92,6 +92,7 @@ const TwitterCardItem: FC<TwitterWorksItemType> = ({
   videoUrl,
   vocalAccount,
   speialThanks,
+  tweetLink,
 }) => (
   <chakra.li
     display="grid"
@@ -122,7 +123,7 @@ const TwitterCardItem: FC<TwitterWorksItemType> = ({
         as="a"
         size="md"
         fontWeight="bold"
-        href="https://twitter.com/_gt_engineer/status/1553424728550871040"
+        href={tweetLink}
         target="_blank"
         _hover={{
           textDecoration: 'underline',

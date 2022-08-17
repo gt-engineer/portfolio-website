@@ -3,6 +3,7 @@ export type TwitterWorksItemType = {
   videoUrl: string
   vocalAccount: string
   speialThanks?: { link: string; text: string }
+  tweetLink: string
 }
 
 export type YouTubeWorksItemType = {
