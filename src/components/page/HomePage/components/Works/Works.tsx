@@ -29,6 +29,15 @@ const TwitterData: ReadonlyArray<TwitterWorksItemType> = [
 
 const YouTubeData: ReadonlyArray<YouTubeWorksItemType> = [
   {
+    videoId: 'iyWZPscV2ls',
+    title: '【15歳】独奏歌ってみた',
+    channel: {
+      id: 'UCY0uRFiM51coDFyMCkGIJww',
+      name: '時雨–SIGURE',
+    },
+    twitterId: 'sigurenyan_58',
+  },
+  {
     videoId: '2U8WltoCStg',
     title: '中学生が恋する3秒前歌ってみた',
     channel: {
@@ -54,15 +63,6 @@ const YouTubeData: ReadonlyArray<YouTubeWorksItemType> = [
       name: 'なゆた。',
     },
     twitterId: 'yuukun38715',
-  },
-  {
-    videoId: 'iyWZPscV2ls',
-    title: '【15歳】独奏歌ってみた',
-    channel: {
-      id: 'UCY0uRFiM51coDFyMCkGIJww',
-      name: '時雨–SIGURE',
-    },
-    twitterId: 'sigurenyan_58',
   },
 ]
 
