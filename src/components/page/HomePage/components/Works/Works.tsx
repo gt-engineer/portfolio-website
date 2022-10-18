@@ -55,6 +55,15 @@ const YouTubeData: ReadonlyArray<YouTubeWorksItemType> = [
     },
     twitterId: 'yuukun38715',
   },
+  {
+    videoId: 'iyWZPscV2ls',
+    title: '【15歳】独奏歌ってみた',
+    channel: {
+      id: 'UCY0uRFiM51coDFyMCkGIJww',
+      name: '時雨–SIGURE',
+    },
+    twitterId: 'sigurenyan_58',
+  },
 ]
 
 export const Works: FC<HTMLChakraProps<'div'>> = ({ ...chakraProps }) => {
